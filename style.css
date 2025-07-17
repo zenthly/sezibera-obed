@@ -1,0 +1,29 @@
+/* Custom overrides */
+.hero-section {
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.hero-section .container {
+    background: grey;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+footer a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #0d6efd;
+}
+.card-title {
+    font-weight: 600;
+}
+@media (max-width: 576px) {
+    .hero-section h1 { font-size: 2rem; }
+    .card-title { font-size: 1.1rem; }
+    .hero-section .container { padding: 25px 8px; }
+}
